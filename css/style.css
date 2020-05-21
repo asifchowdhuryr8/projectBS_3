@@ -1,0 +1,166 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/tiger.jpg");  /* use for slider image */
+  background-size: cover;   /* force the image to cover the width */
+  background-position: center center; }  /* use to show background image center portion */
+
+.carousel-img-2 {
+  background: url("../img/RedForest.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+
+.carousel-img-3 {
+  background: url("../img/image1.jpeg");  
+  background-size: cover;
+  background-position: center; }
+#showcase .carousel-indicators{
+  cursor: pointer;
+}
+
+#home-icon .fa {
+  font-size: 50px; }
+
+#home-getstarted {
+  position: relative;
+  background: url("../img/tiger.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #home-getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#gallery img {
+  min-height: 250px; }
+
+#gallery .row{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* Footer Section */
+#social-icons{
+font-size: 25px;
+}
+#social-icons a{
+  padding:0 20px;
+  color: #fff;
+}
+#social-icons a:nth-child(4){
+  padding-right: 0;
+}
+#social-icons a:hover{
+  text-decoration: none;
+}
+#social-icons a i:hover{
+  color: #1773EA;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  scale: 1.8;
+  -webkit-scale: 1.8;
+}
+#social-icons #instagram:hover{
+  color: #C02768;
+}
+#copyright {
+  background: #000; }
+
+/* Footer Section */
+
+/* About Page */
+#page-header {
+  background: url("../img/RedForest.jpg");
+  background-size: cover;
+  height: 350px;
+  padding-top: 125px;
+  background-position: bottom center;
+  background-attachment: fixed; }
+/*  b img running.jpg bottom center */
+#about img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; }
+
+#icon-boxes .fa {
+  font-size: 50px; }
+
+#icon-boxes .card:hover{
+    scale: 1.15;
+    transform: rotate(360deg);
+    transition: all 2s ;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #000; }  /* changing arrow color of testimonial */
+
+/* Service Page */
+#s-page-header {
+  background: url("../img/dolphin.jpg");
+  background-size: cover;
+  height: 350px;
+  padding-top: 125px;
+  background-position: bottom center;
+  background-attachment: fixed; }
+
+#services .card-footer:hover{
+background-color: lightblue;
+}
+
+/* Blog Page */
+#b-page-header {
+  background: url("../img/running.jpg");
+  background-size: cover;
+  height: 350px;
+  padding-top: 125px;
+  background-position: bottom center;
+  background-attachment: fixed; }
+
+  /* Contact Page */
+#c-page-header {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  height: 350px;
+  padding-top: 125px;
+  background-position: bottom center;
+  background-attachment: fixed; }
+
+@media (max-width: 991px) {
+  #home-getstarted {
+    min-height: 350px; } }
+
+@media (max-width: 575px) {
+  .carousel-caption h2 {
+    font-size: 36px; }
+  .carousel-item .pb-5 {
+    padding-bottom: 0 !important; }
+  #home-getstarted h2 {
+    font-size: 36px;
+    margin: 20px 0; } }
+
+@media (max-width: 480px) {
+  #home-getstarted {
+    min-height: 450px; }
+    #home-getstarted h2 {
+      font-size: 36px !important;
+      margin: 15px 0; } }
